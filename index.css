@@ -623,7 +623,54 @@ body {
     height: 321px;
 }
 /*_______________________Screen section 05 ________________________*/
-
+.section-05 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    height: 781px;
+    background: #F7F7F7;
+}
+.title-section05 {
+    font-family: 'SUITE';
+    font-weight: 800;
+    font-size: 64px;
+    margin: 187px 0 0 0;
+    line-height: 130%;
+    letter-spacing: -0.04em;
+    color: #333333;
+}
+.content-section05 {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    margin: 50px 0 0 0;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #404040;
+}
+.img-section5 {
+    position: absolute;
+    width: 384px;
+    height: 366px;
+    left: 130px;
+    top: -49px;
+    filter: drop-shadow(50px 50px 100px rgba(0, 0, 0, 0.2));
+    border-radius: 30px;
+}
+.box-img-section-05 {
+    width: 624px;
+    height: 481px;
+    background: #F5F5F5;
+    border-radius: 16px;
+    position: relative;
+    flex: none;
+    display: flex;
+    align-self: center;
+    order: 1;
+    flex-grow: 0;
+}
 
 /*_______________________Screen section 06 ________________________*/
 
