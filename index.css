@@ -64,12 +64,13 @@ body {
 .img-home {
     border: 5px solid #000;
     border-radius: 20px;
+    width: 100%;
 }
 .box-img-home {
-    left: 25%;
-    right: 25%;
-    display: flex;
-    margin-top: 73px;
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 1000px/2 - 1px);
+    max-width: 1000px;
 }
 /*__________________Header______________________ */
 .container-header {
@@ -155,6 +156,39 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.option-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    width: 84px;
+}
+.text-meunu-home {
+    font-family: 'pretendard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #666666;
+    margin: 10px 0 0 0 ;
+}
+.connect-network {
+    display: flex;
+    height: 28px;
+    width: 84px;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+}
+.img-menu-home {
+    height: 12px;
+    width: 14px;
 }
 
 /*_______________End Menu____________________________*/
