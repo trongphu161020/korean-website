@@ -4,6 +4,16 @@
       - Quick menu
     2. Screen survey 1
     3. Screen survey 2
+    4. Screen section 3
+    5. Screen section 4
+    6. Screen section 5
+    7. Screen section 6
+    8. Screen section 7
+    9. Screen section 8
+    10. Screen section 9
+    11. Screen brand
+    12. Screen cta
+    13. Screen footer
  */
 
 @font-face {
@@ -394,6 +404,184 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
+/*_______________________Screen section 03 ________________________*/
+.section-03 {
+    background:  linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    height: 1467px;
+    flex-direction: column;
+    align-items: center;
+}
+.title-section03 {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    margin: 160px 0 0 0;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #333333;
+}
+.color-gradient {
+    background: linear-gradient(95.44deg, #EB15FE 0%, #FA3158 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.text-note {
+    font-family: 'pretendard';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    margin: 50px 0 0 0 ;
+    letter-spacing: -0.02em;
+    color: #404040;
+}
+.container-content-section03 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.box_item1 {
+    width: 620px;
+    height: 733px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 16px;
+    margin-right: 40px;
+}
+.box_item2 {
+    width: 620px;
+    height: 350.5px;
+    background: #FFFFFF;
+    position: relative;
+    border-radius: 16px;
+}
+.circle-item1 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 40.5px;
+    top: -56px;
+    background: #E16D3B;
+    border-radius: 200px;
+}
+.circle-item2 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 40px;
+    top: -64.5px;
+    background: #FFCF4E;
+    border-radius: 200px;
+}
+.img_circle-item1 {
+    position: absolute;
+    width: 22px;
+    height: 36px;
+    left: calc(50% - 22px/2 + 0.5px);
+    top: calc(50% - 36px/2);
+}
+.img_circle-item2 {
+    position: absolute;
+    width: 41px;
+    height: 20.32px;
+    left: calc(50% - 41px/2 + 0.5px);
+    top: calc(50% - 20.32px/2 + 0.16px);
+}
+.img_circle-item3 {
+    position: absolute;
+    width: 35px;
+    height: 26.98px;
+    left: calc(50% - 35px/2 + 0.5px);
+    top: calc(50% - 26.98px/2 + 0.49px);
+}
+.title-item1 {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -1.5px;
+    color: #333333;
+    margin: 126px 0 0 47px;
+}
+.content-item1 {
+    font-family: 'Pretendard';
+    font-style: normal;
+    margin: 14px 0 0 47px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -1px;
+    color: #404040;
+}
+.img_item1 {
+    width: 480px;
+    height: 288px;
+}
+.box-img-item1 {
+    position: absolute;
+    left: -71px;
+    top: 381px;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+.content-item2 {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -1px;
+    color: #404040;
+    margin-left: 47px;
+    margin-top: 14px;
+}
+.title-item2 {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    margin: 0 0 0 47px;
+    line-height: 120%;
+    letter-spacing: -2.5px;
+    color: #333333;
+    padding-top: 126px;
+}
+.img_item2 {
+    position: absolute;
+    width: 249px;
+    height: 245px;
+    left: 442px;
+    top: -40px;
+    background: url('image/section03/jobs.png');
+    filter: drop-shadow(50px 50px 100px rgba(0, 0, 0, 0.2));
+    border-radius: 24px;
+}
+/*_______________________Screen section 04 ________________________*/
+
+/*_______________________Screen section 05 ________________________*/
+
+
+/*_______________________Screen section 06 ________________________*/
+
+
+/*_______________________Screen section 07 ________________________*/
+
+
+/*_______________________Screen section 08 ________________________*/
+
+
+/*_______________________Screen section 09 ________________________*/
+
+
+/*_______________________Screen brand ________________________*/
+
+
 /*_______________________Screen Cta ________________________*/
 
 .screen-cta {
