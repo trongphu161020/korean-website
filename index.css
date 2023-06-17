@@ -407,7 +407,7 @@ body {
 
 /*_______________________Screen section 03 ________________________*/
 .section-03 {
-    background:  linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F7F7F7;
     display: flex;
     height: 1467px;
     flex-direction: column;
@@ -563,7 +563,65 @@ body {
     border-radius: 24px;
 }
 /*_______________________Screen section 04 ________________________*/
-
+.section-04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1351px;
+    background: #F7F7F7;
+}
+.circle-item1-section4 {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    left: 40.5px;
+    top: -56px;
+    background: #2C56DE;
+    border-radius: 200px;
+}
+.img_circle-item1-section04 {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: calc(50% - 40px/2 + 0.5px);
+    top: calc(50% - 20px/2);
+}
+.img_circle-item2-section04 {
+    position: absolute;
+    width: 32px;
+    height: 20px;
+    left: calc(50% - 32px/2 + 0.5px);
+    top: calc(50% - 20px/2);
+    font-family: 'Font Awesome 6 Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 20px;
+}
+.box-img-item1-section04 {
+    position: absolute;
+    width: 437px;
+    height: 392px;
+    left: 202px;
+    top: 357px;
+    filter: drop-shadow(50px 50px 100px rgba(0, 0, 0, 0.2));
+}
+.img_item1_section04 {
+    width: 437px;
+    height: 392px;
+}
+.box-img-item2-section04 {
+    position: absolute;
+    width: 437px;
+    height: 321px;
+    left: 226px;
+    top: 327px;
+    filter: drop-shadow(50px 50px 100px rgba(0, 0, 0, 0.2));
+}
+.img_item2_section04 {
+    width: 437px;
+    height: 321px;
+}
 /*_______________________Screen section 05 ________________________*/
 
 
