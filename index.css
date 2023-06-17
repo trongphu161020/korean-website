@@ -652,7 +652,7 @@ body {
 }
 .img-section5 {
     position: absolute;
-    width: 384px;
+    width: 450px;
     height: 366px;
     left: 130px;
     top: -49px;
@@ -673,19 +673,97 @@ body {
 }
 
 /*_______________________Screen section 06 ________________________*/
-
+.section-06 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 781px;
+    background: #F7F7F7;
+}
+.title-section06 {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: -0.04em;
+    margin: 0 ;
+    color: #333333;
+}
+.img-section6 {
+    position: absolute;
+    width: 549.16px;
+    height: 452px;
+    left: -25px;
+    filter: drop-shadow(50px 50px 100px rgba(0, 0, 0, 0.2));
+}
+.box-img-section-06 {
+    width: 549.16px;
+    height: 452px;
+}
 
 /*_______________________Screen section 07 ________________________*/
-
-
+.section-07 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1694px;
+    background: #FFFFFF;
+}
+.title-section07 {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 160px;
+    font-size: 80px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #333333;
+}
 /*_______________________Screen section 08 ________________________*/
+.section-08 {
 
+}
 
 /*_______________________Screen section 09 ________________________*/
-
-
+.section-09 {
+    background: url("image/background_home.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 1388px;
+    position: relative;
+}
+.title-section09 {
+    font-family: 'SUITE';
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 120%;
+    padding: 150px 0 0 0 ;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #333333;
+    margin: 0 0 ;
+}
+.content-section09 {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 50px 0 0 0;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #404040;
+}
+.img_chart {
+    margin-top: 100px;
+}
 /*_______________________Screen brand ________________________*/
+.screen-brand {
 
+}
 
 /*_______________________Screen Cta ________________________*/
 
