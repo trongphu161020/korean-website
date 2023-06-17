@@ -343,3 +343,55 @@ body {
     line-height: 150%;
     color: rgba(26, 25, 30, 0.5);
 }
+
+/**_____________________________________Screen survey 2 _________________________________________________*/
+.screen-survey2 {
+    background-color: #FF728D;
+    height: 1194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-question-survey2 {
+    font-family: 'SUITE';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.container-survey2 {
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    flex-direction: column;
+}
+.content-survey2 {
+    font-family: 'pretendard';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    margin: 24px 0;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+.content-survey3 {
+    font-family: 'SUITE';
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 140%;
+    margin: 100px 0 0 0;
+    color: #FFFFFF;
+}
+.btn-content-survey2 {
+    margin-right: 20px;
+    opacity: 1;
+    border: 10px solid white;
+    background-color: #FF728D;
+}
+.box-answer-management {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
