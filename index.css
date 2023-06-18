@@ -724,8 +724,85 @@ body {
 }
 /*_______________________Screen section 08 ________________________*/
 .section-08 {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1418px;
+    background: #FFFFFF;
 }
+.text-work-experience {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    background: linear-gradient(95.44deg, #EB15FE 0%, #FA3158 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 150px 0 30px 0;
+}
+.title-section-08 {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 130%;
+    margin: 0;
+    text-align: center;
+    color: #222222;
+}
+.box-content {
+    width: 100%;
+    margin: 100px 0 0 0 ;
+    max-width: 1180px;
+    height: 738px;
+}
+.content-item {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 574px;
+    margin-left: 32px;
+    line-height: 160%;
+    justify-content: flex-end;
+    letter-spacing: -0.02em;
+    color: #444444;
+}
+.item-section-8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1180px;
+    width: 100%;
+    height: 248px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.title1-section8 {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #333333;
+    margin: 0 0 0 32px;
+}
+.title2-section8 {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #333333;
+    margin: 0 0 0 32px;
+}
+
 
 /*_______________________Screen section 09 ________________________*/
 .section-09 {
@@ -762,7 +839,118 @@ body {
 }
 /*_______________________Screen brand ________________________*/
 .screen-brand {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1504px;
+    background: #FFFFFF;
+}
+.title-section-brand {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #333333;
+    margin: 200px 0 50px 0
+}
+.content-section-brand {
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 0;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #404040;
+}
+.container-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 86px;
+    width: 1280px;
+    height: 800px;
+}
+.box-branch-brand {
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    height: 200px;
+    justify-content: space-around;
+    width: 100%;
+}
+.item1-section-brand {
+    width: 252px;
+    height: 160px;
+}
+.item2-section-brand {
+    width: 226px;
+    height: 143px;
+}
+.item3-section-brand{
+    width: 241px;
+    height: 153px;
+}
+.item4-section-brand{
+    width: 219px;
+    height: 60px;
+}
+.item5-section-brand{
+    width: 238px;
+    height: 65px;
+}
+.item6-section-brand{
+    width: 226px;
+    height: 103px;
+}
+.item7-section-brand{
+    width: 123px;
+    height: 116px;
+}
+.item8-section-brand{
+    width: 226px;
+    height: 72px;
+}
+.item9-section-brand{
+    width: 160px;
+    height: 115px;
+}
+.item10-section-brand{
+    width: 241px;
+    height: 70px;
+}
+.item11-section-brand{
+    width: 273px;
+    height: 173px;
+}
+.item12-section-brand{
+    width: 187px;
+    height: 75px;
+}
+.item13-section-brand{
+    width: 182px;
+    height: 50px;
+}
+.item14-section-brand{
+    width: 207px;
+    height: 47px;
+}
+.item15-section-brand{
+    width: 195px;
+    height: 99px;
+}
+.item16-section-brand{
+    width: 125px;
+    height: 114px;
+}
+.center-column-row {
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 /*_______________________Screen Cta ________________________*/
