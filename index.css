@@ -25,7 +25,25 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-items-self-center {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
 }
 /**_____________________________________Screen Home _________________________________________________*/
 
@@ -154,8 +172,6 @@ body {
     height: 368px;
     position: absolute;
     right: 0;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.972549);
     bottom: 198px;
@@ -179,9 +195,6 @@ body {
     justify-content: center;
 }
 .option-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: 100px;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -226,9 +239,6 @@ body {
 .option-quick-menu {
     width: 294px;
     border-left: 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     border-right: 1px;
     border-color: white;
 }
@@ -302,10 +312,6 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     align-items: center;
 }
-.box-information {
-    display: flex;
-    flex-direction: column;
-}
 .content-information {
     display: flex;
     align-items: center;
@@ -315,9 +321,6 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-self: center;
     margin-right: 20px;
 }
 .btn-information {
@@ -408,10 +411,7 @@ body {
 /*_______________________Screen section 03 ________________________*/
 .section-03 {
     background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #F7F7F7;
-    display: flex;
     height: 1467px;
-    flex-direction: column;
-    align-items: center;
 }
 .title-section03 {
     font-family: 'SUITE';
@@ -564,9 +564,6 @@ body {
 }
 /*_______________________Screen section 04 ________________________*/
 .section-04 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 1351px;
     background: #F7F7F7;
 }
@@ -705,9 +702,6 @@ body {
 
 /*_______________________Screen section 07 ________________________*/
 .section-07 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 1694px;
     background: #FFFFFF;
 }
@@ -715,18 +709,244 @@ body {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 800;
-    margin-top: 160px;
+    margin: 160px 0 100px 0;
     font-size: 80px;
     line-height: 120%;
     text-align: center;
     letter-spacing: -0.03em;
     color: #333333;
 }
-/*_______________________Screen section 08 ________________________*/
-.section-08 {
+.box-item1 {
+    display: flex;
+    flex-direction: row;
+}
+.item01 {
+    width: 574px;
+    height: 500px;
+    background: #F8F8F8;
+    position: relative;
+    border-radius: 20px;
+}
+.item02 {
+    width: 372px;
+    height: 550px;
+    background: #F8F8F8;
+    border-radius: 20px;
+}
+.box-item02 {
+    display: flex;
+    margin-top: 32px;
+    flex-direction: row;
+}
+.ml-mr-32 {
+    margin: 0 32px;
+}
+.title-item1 {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    margin: 66px 0 16px 0  ;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+}
+.content-item1 {
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    margin: 0 0 64px 0;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: rgba(26, 25, 30, 0.5);
+}
+.img-item1 {
+    display: flex;
+    justify-content: center;
+}
+.title-item2 {
+    width: 300px;
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    margin: 56px 36px 16px 36px;
+    letter-spacing: -0.03em;
+    padding: 0;
+    color: #1A191E;
+}
+.content-item2 {
+    width: 300px;
+    font-family: 'Pretendard';
+    padding: 0;
+    font-style: normal;
+    margin: 0 36px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    color: rgba(26, 25, 30, 0.5);
+}
+.img-item1-section07 {
+    width: 131.4px;
+    height: 60px;
+}
+.img-item1-section071 {
+    width: 97.5px;
+    height: 60px;
+}
+.box-item-section07 {
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    width: 398.64px;
+    height: 60px;
+    gap: 16px;
+    margin-top: 16px;
+}
+.container-section7 {
+    margin-top: 45px;
+}
+.img-item31-section07 {
+    width: 92.89px;
+    height: 60px;
+}
+.img-item32-section07 {
+    width: 162.32px;
+    height: 60px;
+}
+.img-item33-section07 {
+    width: 151.72px;
+    height: 60px;
+}
+
+.img-item21-section07 {
+    width: 125.94px;
+    height: 60px;
+}
+.center-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+}
+.img-item22-section07 {
+    width: 72.62px;
+    height: 60px;
+}
+.img-item23-section07 {
+    width: 93.6px;
+    height: 60px;
+}
+.img-item24-section07 {
+    width: 44px;
+    height: 60px;
+}
+.box-content-item2 {
+    height: 219px;
+    margin-left: 47.33px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+}
+.box-img-item2-section07 {
+    width: 160px;
+    align-items: center;
+    height: 160px;
+    background: #E8F2EE;
+    border-radius: 16px;
+}
+.box-img-item3-section07 {
+    width: 140px;
+    height: 160px;
+    background: #F1DFDF;
+    align-items: center;
+    border-radius: 16px 0 0 16px;
+}
+.name-device {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+    margin: 8px 0 4px 0;
+}
+.price-device {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+    line-height: 160%;
+    color: rgba(26, 25, 30, 0.5);
+}
+.content-question-section7 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 0px;
+    margin-top: 30px;
+    gap: 16px;
+}
+.box-question-section7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-left: 16px;
+    width: 50px;
+    height: 50px;
+    background: #5BB5A2;
+    border-radius: 8px;
+}
+.item-question-section7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 300px;
+    height: 83px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.company {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+    margin: 0;
+}
+.field-company {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    margin: 0;
+    color: rgba(26, 25, 30, 0.5);
+}
+.price-section7 {
+    font-family: 'SUITE';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+}
+/*_______________________Screen section 08 ________________________*/
+.section-08 {
     height: 1418px;
     background: #FFFFFF;
 }
@@ -839,9 +1059,6 @@ body {
 }
 /*_______________________Screen brand ________________________*/
 .screen-brand {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 1504px;
     background: #FFFFFF;
 }
@@ -867,9 +1084,6 @@ body {
     color: #404040;
 }
 .container-brand {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 0;
     margin-top: 86px;
     width: 1280px;
@@ -947,12 +1161,6 @@ body {
     width: 125px;
     height: 114px;
 }
-.center-column-row {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
-
 /*_______________________Screen Cta ________________________*/
 
 .screen-cta {
